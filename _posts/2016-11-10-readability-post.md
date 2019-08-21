@@ -2,6 +2,7 @@
 layout: post
 categories: posts
 title: "Testing Readability with a Bunch of Text"
+featured-image: /images/2016-11-19/abstract-5.jpg
 tags: [sample post, readability, test, intro]
 date-string: NOVEMBER 10, 2016
 ---

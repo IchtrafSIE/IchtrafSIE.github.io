@@ -2,6 +2,7 @@
 layout: post
 categories: posts
 title: Image Post
+featured-image: /images/2016-11-19/abstract-2.jpg
 tags: [sample post]
 date-string: NOVEMBER 19, 2016
 ---

@@ -2,6 +2,7 @@
 layout: post
 categories: posts
 title: A Video Post
+featured-image: /images/2016-11-19/abstract-4.jpg
 tags: [sample post, video]
 date-string: NOVEMBER 14, 2016
 ---

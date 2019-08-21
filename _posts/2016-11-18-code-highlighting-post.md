@@ -2,6 +2,7 @@
 layout: post
 categories: posts
 title: Syntax Highlighting Post
+featured-image: /images/2016-11-19/abstract-3.jpg
 tags: [sample post, code, highlighting]
 date-string: NOVEMBER 18, 2016
 ---
