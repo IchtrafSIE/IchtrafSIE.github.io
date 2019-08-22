@@ -93,3 +93,109 @@ tip：每一个符号都可以当作无序列表的标签，不过都要需要�
 
 补充一下，在我学习这门语法的时候，看到上一级和下一级之间敲三个空格可以做出列表嵌套的效果，但是我一直没有实现，有兴趣的可以去关注下。
 
+# 五、表格
+表格是书写在我看来是比较麻烦的，因为MarkDown的表格也是纯手打的，所以比起用鼠标点击一键生成的word来，更为繁琐。
+
+语法
+
+    表头|表头|表头
+    -|:--:|-:
+    内容|内容|内容
+    内容|内容|内容
+
+预览：
+
+表头 | 表头 | 表头
+-| :-: |-:
+内容一 | 内容二 | 内容三
+内容 | 内容 | 内容
+
+每个单元格之间使用 | 分割的, :是用来控制对齐方式的， 在 - 的左边添加:表示左对齐，两边都添加 : 表示居中，右边添加 : 表示右对齐。
+
+# 六、图片
+图片的插入方式和html语言相似，当然也是个人理解
+语法：
+
+    ![图片alt](图片地址 ''图片title'')
+    图片alt就是显示在图片下面的文字，相当于对图片的解释。
+    图片title是当鼠标移到图片上时显示的内容,可加可不加
+
+预览我就随便拿一张我库的图片测试:
+
+![Blog](https://ichtrafsie.github.io/images/2019-8/Blog02.jpg "Test")
+
+# 七、超链接
+超链接和引用在我看来用法类似，都是突出显示一些内容，语法如下：
+
+    [超链接名](超链接地址 "超链接title")
+    [百度](https://www.baidu.com)
+
+效果如下：
+
+[超链接名](超链接地址 "超链接title")
+
+[百度](https://www.baidu.com)
+
+tip:不过MarkDown语法本身不支持链接在新页面打开，这个时候可以使用下html语法：
+
+    <a href="https://www.baidu.com" target="blank">百度</a>
+
+效果如下：
+
+<a href="https://www.baidu.com" target="blank">百度</a>
+
+
+# 八、分割线
+
+分割线个人用的比较少,简单说下语法：
+
+    ---
+    ----
+    ***
+    *****
+
+效果其实都一样，三个或者三个以上的 - 或者 * 就可以达到效果。
+
+---
+
+# 九、代码
+如果是学编程语言的朋友在使用MarkDown写自己的博客的时候，应该都想让自己的代码有个格式，看起来简介易阅读。
+
+语法：
+
+单行代码：使用 `` 把内容包裹起来
+
+    `代码内容`
+
+预览：
+
+`代码内容`
+
+多行代码: 使用 ``` 将代码块包裹，并且三个反引号单独占一行。
+tip：反引号 ` 一般位于键盘的tab上面一个键。
+
+语法：
+
+    ```
+    public class Hello_MarkDown {
+        public static void main(String[] args) {
+            System.out.println("Hello MarkDown");
+        }
+    }
+    ```
+
+预览
+
+```
+  public class Hello_MarkDown {
+    public static void main(String[] args) {
+        System.out.println("Hello MarkDown");
+    }
+}
+```
+
+当然，也可以将代码粘贴进文本后，选中按下tab，也可以达到相应的效果。
+
+# 十、MarkDown工具推荐
+一门好的语言当然需要一个好的书写工具，市面上支持MarkDown语法的工具也有很多，例如Visual Studio Code、Mou、Sublime等。个人还是比较推荐Visual Studio Code的，自带MarkDown预览功能，支持多种插件，如果想把使用MarkDown语言编写好的文章导出为pdf，在侧栏Extensions中添加一个MarkDown PDF插件就可以导出了，然而这项工具的妙处还不止于此，感兴趣的朋友可以去访问vsc的官网下载摸索。
+>https://code.visualstudio.com
