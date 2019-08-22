@@ -5,7 +5,7 @@ title: About MarkDown
 subtitle: This is an article about Markdown.
 featured-image: /images/2019-8/Blog01.jpg
 tags: [markdown]
-date-string: August 02, 2019
+date-string: August 20, 2019
 ---
 
 # About MarkDown
