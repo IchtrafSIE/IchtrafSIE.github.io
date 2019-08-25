@@ -4,7 +4,7 @@ categories: posts
 title: RequestMapping
 subtitle: SpringMVC中的@RequestMapping注解
 featured-image: /images/2019-8/Blog04.jpg
-tags: [SpringMVC,@RequestMapping,github]
+tags: [SpringMVC,RequestMapping,github]
 date-string: August 25, 2019
 ---
 
