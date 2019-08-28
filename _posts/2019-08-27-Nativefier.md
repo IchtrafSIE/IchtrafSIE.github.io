@@ -45,14 +45,15 @@ Nativefier是一个命令行工具，可以轻松地为任何具有简洁和最�
 
     nativefier "https://ichtrafsie.github.io"]
 
-
-![blog05](/images/2019-08-27/blog05.png)
-
 对该网站进行下载到本地并且封装成为一个应用程序，当然，也可以在下载之前对其进行命名。
 
     nativefier --name "Dyblog" "https://ichtrafsie.github.io/"
 
-![blog04](/images/2019-08-27/blog04.png)
+![blog10](/images/2019-08-27/blog10.png)
+
+图示的图标修改下面会讲到，先看下效果图：
+
+![blog11](/images/2019-08-27/blog11.png)
 
 # 二、Icofx
 既然下载了自己想要下载的网站，我们也可以对其应用程序的图标进行一些自定义，所以我推荐一个名为Icofx的软件，下载地址如下:
