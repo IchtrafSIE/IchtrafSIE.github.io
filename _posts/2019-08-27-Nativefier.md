@@ -80,7 +80,7 @@ Nativefier是一个命令行工具，可以轻松地为任何具有简洁和最�
 
 然后我们回到cmd窗口，输入
 
-    nativefier --icon Dyico "https://ichtrafsie.github.io/"
+    nativefier --icon Dy.ico "https://ichtrafsie.github.io/"
 
 这样我们下载的网页就可以使用自定义的图标了。
 
