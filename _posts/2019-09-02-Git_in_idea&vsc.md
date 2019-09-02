@@ -3,7 +3,7 @@ layout: post
 categories: posts
 title: Git in Idea & Visual Studio Code
 subtitle: 在idea和vsc上连接git远程仓库
-featured-image: /images/2019-8/Blog9.jpg
+featured-image: /images/2019-8/Blog09.jpg
 tags: [Idea,Visual Studio Code,Git]
 date-string: September 02, 2019
 ---
