@@ -23,7 +23,7 @@ permalink: /:categories/:year-:month-:day/:title.html
   - key: rel
     value: 'shortcut icon'
   - key: href
-    value: //github.com/IchtrafSIE/IchtrafSIE.github.io/blob/master/images/header/favicon.ico
+    value: /images/header/favicon.ico
   
 # Amount of post to show on home page
 paginate: 5
