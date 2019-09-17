@@ -18,12 +18,6 @@ sass:
   style: compressed
 
 permalink: /:categories/:year-:month-:day/:title.html
-
-  var:
-  - key: rel
-    value: 'shortcut icon'
-  - key: href
-    value: /images/header/favicon.ico
   
 # Amount of post to show on home page
 paginate: 5
