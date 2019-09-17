@@ -18,6 +18,14 @@ sass:
   style: compressed
 
 permalink: /:categories/:year-:month-:day/:title.html
+
+head: # 删改前确定知道自己在做什么
+- tag: link # 小图标，同上
+  var:
+  - key: rel
+    value: 'shortcut icon'
+  - key: href
+    value: /images/header/favicon.ico
   
 # Amount of post to show on home page
 paginate: 5
