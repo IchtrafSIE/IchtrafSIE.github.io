@@ -19,6 +19,7 @@ sass:
 
 permalink: /:categories/:year-:month-:day/:title.html
 
+- tag: link 
   var:
   - key: rel
     value: 'shortcut icon'
