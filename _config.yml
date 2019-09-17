@@ -20,6 +20,12 @@ sass:
 permalink: /:categories/:year-:month-:day/:title.html
 
 head:
+- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
+  var:
+  - key: rel
+    value: apple-touch-icon-precomposed
+  - key: href
+    value: //github.com/IchtrafSIE/IchtrafSIE.github.io/blob/master/images/header/favicon.ico
 - tag: link 
   var:
   - key: rel
