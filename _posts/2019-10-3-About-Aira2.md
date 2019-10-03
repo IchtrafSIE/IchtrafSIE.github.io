@@ -77,7 +77,7 @@ TIP:Greasy Fork是一个查找脚本很方便的网站，这里列出网址，�
 
 ![blog13](/images/2019-10-03/blog13.png)
 
-首先点击start.bat，弹出一个cmd窗口，这个窗口需要一直保持，否则下载进行不了或者中断。
+首先点击start.bat，弹出一个cmd窗口，然后点击aira2.exe，这个窗口需要一直保持，否则下载进行不了或者中断。
 
 ![blog14](/images/2019-10-03/blog14.png)
 
