@@ -7,9 +7,9 @@ featured-image: /images/2019-8/Blog12.jpg
 tags: [aira2,PanDownload,]
 date-string: October 3, 2019
 ---
-主要解释如何在win操作系统下，部署aira2客户端，并且配合油猴插件，Pandownload脚本，实现全速下载百度云盘资源。
+主要解释如何在win操作系统下，部署Aira2客户端，并且配合油猴插件，Pandownload脚本，实现全速下载百度云盘资源。
 
-# 一些准备
+# 准备
 
 首先，得给浏览器安一个油猴(官网/chrome)。
 >http://www.tampermonkey.net/
@@ -51,7 +51,7 @@ TIP:Greasy Fork是一个查找脚本很方便的网站，这里列出网址，�
 
 ![blog08](/images/2019-10-03/blog08.png)
 
-选中下载内容后跳转页面，会给出一个直链和一个Aira2的链接，然后就是关于Aira2配置的内容：
+选中下载内容后跳转页面，会给出一个直链和一个Aira2的链接，然后就是关于Aira2配置的内容，然后就是需要配置Aira2，这个页面得放到Aira2配置后再操作：
 
 ![blog09](/images/2019-10-03/blog09.png)
 
