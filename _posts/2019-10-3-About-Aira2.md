@@ -4,9 +4,10 @@ categories: posts
 title: About Aira2 & PanDownload
 subtitle: 关于在Windows上Aira2的安装及使用
 featured-image: /images/2019-8/Blog12.jpg
-tags: [aira2,PanDownload,]
+tags: [aira2,PanDownload]
 date-string: October 3, 2019
 ---
+
 主要解释如何在win操作系统下，部署Aira2客户端，并且配合油猴插件，Pandownload脚本，实现全速下载百度云盘资源。
 
 # 准备
