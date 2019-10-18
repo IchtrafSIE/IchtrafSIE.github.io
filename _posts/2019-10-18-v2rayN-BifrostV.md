@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: posts
-title: Scientific Ways to surf the internet
+title: Scientific Ways To Surf The Internet
 subtitle: 关于使用一些免费的线路去科学上网
 featured-image: /images/2019-8/Blog14.jpg
 tags: [v2rayN,BifrostV,free,tools]
