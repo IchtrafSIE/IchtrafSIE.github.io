@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: posts
-title: Mysql-Install
+title: MySQL-Install
 subtitle: MySQL5.7安装说明
 featured-image: /images/2019-8/Blog15.jpg
 tags: [MySQL5.7,Install]
@@ -92,6 +92,8 @@ mysql -uroot -p
 * 打开创建的my.ini，于[mysqld]下插入一行：
 
     **skip-grant-tables**
+
+    ![blog01](/images/2020-12-29/4.jpg)
 * 重启mysql服务
     ```
     net stop mysql
