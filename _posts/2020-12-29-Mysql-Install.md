@@ -85,9 +85,18 @@ net start mysql
 mysql -uroot -p
 ```
 
-5、提示 Enter password： 输入自动生成的密码，登录成功，可以使用第三方工具创建连接
+5、提示 Enter password： 输入自动生成的密码，登录成功
 
-6、如果输入密码，提示密码验证失败，则需要以下操作
+6.1、此时生成的密码是临时密码，需要执行以下操作修改root密码
+
+```
+alter user user() identified by "root";
+update mysql.user set authentication_string=password('root') where user='root' and Host ='localhost';
+```
+
+此时可以通过第三方工具建立连接。
+
+6.2、如果输入密码，提示密码验证失败，则需要以下操作
 
 * 打开创建的my.ini，于[mysqld]下插入一行：
 
